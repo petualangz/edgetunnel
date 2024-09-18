@@ -1,4 +1,4 @@
-name = "cf-worker-ws-dev-0415" # todo
+name = "aldo-sg" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 
@@ -7,5 +7,25 @@ main = "src/worker-vless.js"
 
 compatibility_date = "2024-04-15"
 
+[[routes]]
+pattern = "aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "shopee.co.id.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cf.shopee.co.id.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cv.shopee.sg.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cvs-deo.shopeemobile.com.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.aldo-sg.generasitel.my.id"
+custom_domain = true
+
 [vars]
 # UUID = "example_dev_token"
+UUID = "31478b8d-e5a7-4e4d-9fff-52d9799dd4bb"
